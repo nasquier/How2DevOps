@@ -2,3 +2,8 @@ Step 1 :
 -Handmade creation and configuration of a VM (Debian 10.4.0) 
 -Installation and configuration of an apache2 web server
 -Access the server from the host machine in a browser 
+
+Step 2:
+-Installation and configuration of a VM with Vagrant
+-Provision vagrant with a shell script to install and configure the apache2 web server
+-Access the server from the host machine in a browser 
