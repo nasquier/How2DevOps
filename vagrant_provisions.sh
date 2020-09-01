@@ -13,8 +13,8 @@ a2ensite lostgems.conf # vhost activation
 systemctl reload apache2
 
 # Downloading the sources for the new site
+echo "nameserver 8.8.8.8" | sudo tee /etc/resolv.conf > /dev/nullgunzip
 wget https://www.github.com/nasquier/lostgems/archive/master.tar.gz
-gunzip master.tar.gz
 tar -xf master.tar
 rm master.tar
 mkdir /var/www/local/lostgems -p
