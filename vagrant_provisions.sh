@@ -18,5 +18,5 @@ gunzip master.tar.gz
 tar -xf master.tar
 rm master.tar
 mkdir /var/www/local/lostgems -p
-mv lostgems-master/mainpage/* /var/www/local/lostgems
+mv lostgems-master/* /var/www/local/lostgems
 rm lostgems-master -r
